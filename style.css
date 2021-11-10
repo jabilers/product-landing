@@ -1,0 +1,201 @@
+        body {
+            margin: 0;
+            background-color: #54535329;
+        }
+
+        #nav-bar {
+            width: 100%;
+            height: 48px;
+            background-color: #fff;
+            display: flex;
+            position: fixed;
+             top: 0;
+            left: 0;
+            width: 100%;
+            box-shadow: 0px 2px 8px #222222;
+        }
+
+    
+        #header-img {
+            width: 30px;
+            height: 30px;
+            margin-top: 9px;
+            margin-left: 10px;
+
+
+        }
+
+        #logo-title {
+            font-family: 'hind', sans-serif;
+            text-shadow: 1px 1px 2px #ddd;
+            font-size: 20px;
+            margin-top: -2px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-family: sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            padding: 15px;
+            display: inline-block;
+
+        }
+
+        .nav-link:hover {
+            color: #ddd;
+            background-color: #333;
+        }
+
+        /*section1*/
+        .top-container {
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            margin: 10px auto;
+            background-color: #fff;
+            box-shadow: 0px 0px 10px #54535329;
+            margin-top: 100px;
+        }
+
+        .container {
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            margin: 10px auto;
+            background-color: #fff;
+            box-shadow: 0px 0px 10px #54535329;
+        }
+
+        h1 {
+            padding: 5px;
+            text-align: center;
+        }
+
+        h2 {
+            padding: 5px;
+        }
+
+        .product-image {
+            display: inline-block;
+            width: 70%;
+            font-size: 0;
+            line-height: 0;
+            vertical-align: middle;
+            background-size: 70%;
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+            background-image: url(../Image/product.jpg);
+            background-color: #fff;
+            height: 30vw;
+            margin: 10px auto;
+        }
+
+        .product-features {
+            width: 90%;
+            margin: 10px auto;
+            background-color: #fff;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 15px;
+            text-align: left;
+        }
+
+
+        #video {
+            overflow: hidden;
+            padding-bottom: 56.25%;
+            position: relative;
+            height: 0;
+        }
+
+        #video iframe {
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+
+        }
+
+        #subscribe {
+            font-weight: 600;
+            color: #D50000;
+            text-align: center;
+            line-height: 20px;
+            padding: 10px;
+            font-size: 32px;
+        }
+
+        #para {
+            text-align: center;
+            font-weight: 500;
+        }
+
+        #form {
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        input {
+            transition: 0.1s;
+            border: none;
+        }
+
+        input:hover {
+            border-bottom: 2px solid #222222;
+        }
+
+        #email {
+            padding: 9px 20px;
+
+        }
+
+        #submit {
+            padding: 10px 20px;
+            background-color: #D50000;
+            border: none;
+            color: #ffffff;
+        }
+
+        @media only screen and (max-width:600px) {
+            #subscribe {
+                font-weight: 600;
+                color: #D50000;
+                text-align: center;
+                line-height: 20px;
+                padding: 10px;
+                font-size: 24px;
+            }
+
+            #form {
+                margin: 0 auto;
+                padding: 20px;
+                height: 100px;
+            }
+
+            #video {
+                overflow: hidden;
+                padding-bottom: 56.25%;
+                position: relative;
+                height: 0;
+            }
+
+            #video iframe {
+                left: 0;
+                top: 0;
+                height: 100%;
+                width: 100%;
+                position: absolute;
+                z-index: 1;
+            }
+
+        }
